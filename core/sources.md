@@ -43,7 +43,7 @@
 ## S-04  Prompting Claude Fable 5.2
 - url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2.md
 - scope: claude
-- 근거로 쓰는 규칙: R-CTX-003, R-EMP-002, R-TOL-005, R-BND-001, R-BND-002, R-CMP-004, R-AGT-002, R-AGT-003, R-AGT-005, R-LEG-003, R-LEG-005
+- 근거로 쓰는 규칙: R-CTX-003, R-EMP-002, R-TOL-001, R-TOL-005, R-AGT-001, R-BND-001, R-BND-002, R-CMP-004, R-AGT-002, R-AGT-003, R-AGT-005, R-LEG-003, R-LEG-005
 - last_checked: 2026-11-21
 - 핵심 주장 스냅샷:
   - effort 기본값은 high, "숙고하지 말고 바로 답해"는 medium 이상에서 사고를 줄이지 못한다 → R-LEG-003
