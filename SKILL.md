@@ -1,0 +1,9 @@
+---
+name: prompt-upgrader
+description: 에이전트 지침이나 시스템 프롬프트를 최신 프롬프트 엔지니어링 기준으로 검수해 점수와 문제점을 보여주고, 모호한 사용자 프롬프트를 프레임 어휘와 정밀 어휘로 고수준 프롬프트로 바꾼다. 지침 검수, 프롬프트 개선·고도화·리뷰, 프롬프트 점수, 악마의 대변인 같은 프레임 추천, 규칙 갱신(refresh), 평가(eval) 요청에 사용한다.
+---
+
+# prompt-upgrader
+
+이 스킬 폴더의 `core/PROTOCOL.md`를 읽고 그 절차를 따른다.
+사용자가 붙인 인자(review, upgrade, refresh, eval, 바로, --quick, --model, cases, effects)는 PROTOCOL의 모드 판별에 그대로 넘긴다.
