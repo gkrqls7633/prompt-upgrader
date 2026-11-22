@@ -24,7 +24,7 @@ git clone https://github.com/gkrqls7633/prompt-upgrader.git ~/.claude/skills/pro
 ```text
 /prompt-upgrader upgrade 바로 "이번 주 업무 보고 써줘"
 ```
-결과 첫 줄이 `prompt-upgrader v1.0.0 · 규칙 기준일 ...`로 시작하면 정상이다.
+결과 첫 줄이 `prompt-upgrader v1.1.0 · 규칙 기준일 ...`로 시작하면 정상이다.
 
 **새 버전 받기**:
 ```bash
@@ -57,7 +57,7 @@ Claude Code와 같은 위치에 받아 둔다 (위의 `git clone` 명령). 그�
 출력 요약:
 
 ```text
-prompt-upgrader v1.0.0 · 규칙 기준일 2026-11-21
+prompt-upgrader v1.1.0 · 규칙 기준일 2026-11-21
 
 ## 검수 결과: 58/100 (재작성)
 | I4 완료 기준과 검증 | 2/15 | R-CMP-001, R-CMP-002, R-CMP-003 |
@@ -190,7 +190,7 @@ prompt-upgrader/
 모든 결과의 첫 줄에는 스킬 버전과 규칙 기준일이 나온다.
 
 ```text
-prompt-upgrader v1.0.0 · 규칙 기준일 2026-11-21
+prompt-upgrader v1.1.0 · 규칙 기준일 2026-11-21
 ```
 
 규칙 기준일은 이번 결과에 쓰인 규칙 중 가장 오래 전에 검증된 날짜다. 프롬프트 모범 사례는 모델과 함께 바뀌기 때문에, 오늘 맞는 규칙도 몇 달 뒤에는 낡을 수 있다. 검증일이 90일을 넘은 규칙이 쓰이면 결과 끝에 "재검증 필요"가 표시된다.
