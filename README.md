@@ -26,10 +26,22 @@ git clone https://github.com/gkrqls7633/prompt-upgrader.git ~/.claude/skills/pro
 ```
 결과 첫 줄이 `prompt-upgrader v1.1.0 · 규칙 기준일 ...`로 시작하면 정상이다.
 
-**새 버전 받기**:
-```bash
-cd ~/.claude/skills/prompt-upgrader && git pull
+**새 버전 받기**: 업데이트는 자동으로 되지 않는다. 대신 스킬을 쓸 때 GitHub에 새 버전이 있으면 결과 첫 줄 아래에 알려준다.
+
+```text
+prompt-upgrader v1.1.0 · 규칙 기준일 2026-11-21
+새 버전 v1.2.0이 있습니다 (지금 v1.1.0). 받는 법: cd ~/.claude/skills/prompt-upgrader && git pull
 ```
+
+이 줄이 보이면 아래처럼 받는다. 설치 방식에 따라 방법이 다르다.
+
+| 설치 방식 | 새 버전 받는 법 |
+|---|---|
+| `git clone` (Claude Code, Codex, Cursor) | `cd ~/.claude/skills/prompt-upgrader && git pull` 한 번이면 세 도구 모두 바뀐다 |
+| ZIP으로 받음 | 새 ZIP을 받아 폴더를 통째로 바꾼다 |
+| ChatGPT 등 붙여넣기 | 새 `adapters/generic/system-prompt.md`를 다시 붙여 넣는다 |
+
+버전 확인은 공개된 버전 번호 파일 하나만 읽고, 검수하는 내용은 어디에도 보내지 않는다. 사내망에서 GitHub가 막혀 있으면 확인을 건너뛰고 평소처럼 동작한다. Claude Code가 이 확인을 위해 인터넷 접근 허용을 물어보면 허용하면 된다. 받은 폴더 안의 파일을 직접 고쳤다면 `git pull`이 충돌할 수 있으니, 고치고 싶은 내용은 스킬 관리자에게 알린다.
 
 ### Codex
 

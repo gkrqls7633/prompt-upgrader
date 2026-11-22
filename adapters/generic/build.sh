@@ -12,7 +12,7 @@ OLDEST=$(grep -rho '^- verified: [0-9-]*' core/rules core/vocabulary | awk '{pri
   echo
   echo "파일을 읽을 수 없는 AI 도구(ChatGPT, Gemini 웹 등)에서 쓰는 버전이다. 이 파일 전체를 시스템 프롬프트나 대화 첫 메시지로 붙여 넣은 뒤, review나 upgrade를 요청한다."
   echo "길이 때문에 규칙은 high severity만, 어휘는 표 요약만 들어 있다. 전체 규칙이 필요하면 Claude Code나 Codex 버전을 쓴다."
-  echo "아래 본문에 나오는 파일 경로(core/...)는 이 붙여넣기 버전에서는 열 수 없다. 해당 내용은 이 문서 안의 절과 맨 아래 요약표를 대신 쓴다. refresh와 eval은 이 버전에서 지원하지 않는다."
+  echo "아래 본문에 나오는 파일 경로(core/...)는 이 붙여넣기 버전에서는 열 수 없다. 해당 내용은 이 문서 안의 절과 맨 아래 요약표를 대신 쓴다. refresh와 eval은 이 버전에서 지원하지 않는다. 새 버전 알림이 나오면 git pull 대신 저장소에서 이 파일을 다시 받아 붙여 넣는다."
   echo "core가 바뀌면 이 파일을 다시 생성한다. 생성 방법은 MAINTAINING.md 참고."
   echo
   echo "이 붙여넣기 버전의 규칙 기준일은 $OLDEST 이다. 결과 첫 줄은 항상 \`prompt-upgrader v$VERSION · 규칙 기준일 $OLDEST\` 로 쓴다. 오늘 날짜가 이 기준일보다 90일 넘게 지났으면 결과 끝에 \"재검증 필요: 규칙이 낡았을 수 있으니 최신 버전을 받으세요\"라고 쓴다."
