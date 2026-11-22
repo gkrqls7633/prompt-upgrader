@@ -167,7 +167,7 @@ prompt-upgrader/
 │   └── sources.md      근거 문서와 핵심 주장 스냅샷
 ├── adapters/           Codex, Cursor, 붙여넣기용
 ├── examples/           실제 실행 출력
-├── evals/              검출 평가 21개, 효과 평가 10쌍, 결과 기록
+├── evals/              검출 평가 22개, 효과 평가 10쌍, 결과 기록
 ├── refresh/            갱신 변경안 기록
 ├── MAINTAINING.md      관리자용 갱신 절차
 └── CHANGELOG.md
