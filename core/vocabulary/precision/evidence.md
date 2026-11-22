@@ -28,6 +28,7 @@
 - 업무 예시: RAG - "규정집에 없는 내용은 인사팀 문의를 안내해."
 - 관련 규칙: R-CMP-003
 - verified: 2026-11-21 / claude-opus-5-5
+- effect: none (claude-opus-5-5, 2026-11-21, A 2/3, B 2/3). 어휘 없이도 기준을 대부분 충족해 차이가 2 미만이었다
 
 ## V-EVD-04  사실과 추측을 구분해 / Separate fact from inference
 - 상황: 데이터에서 해석을 끌어낼 때
