@@ -6,4 +6,4 @@
 
 사용 예:
 - "이 지침 prompt-upgrader로 review 해줘"
-- "prompt-upgrader upgrade 바로: 지난달 매출 분석해줘"
+- "prompt-upgrader upgrade: 지난달 매출 분석해줘" (정보가 충분해질 때까지 질문한 뒤 개선본을 줍니다)

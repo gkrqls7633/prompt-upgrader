@@ -6,4 +6,4 @@ description: 에이전트 지침이나 시스템 프롬프트를 최신 프롬�
 # prompt-upgrader
 
 이 스킬 폴더의 `core/PROTOCOL.md`를 읽고 그 절차를 따른다.
-사용자가 붙인 인자(review, upgrade, refresh, eval, 바로, --quick, --model, cases, effects)는 PROTOCOL의 모드 판별에 그대로 넘긴다.
+사용자가 붙인 인자(review, upgrade, refresh, eval, --model, cases, effects)는 PROTOCOL의 모드 판별에 그대로 넘긴다.
